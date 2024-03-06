@@ -1,1 +1,303 @@
-eyhyh
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery Service</title>
+ <!-- styles -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #006400;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .moving-images {
+      display: flex;
+      justify-content: space-around;
+      overflow: hidden;
+      margin-top: 100px;
+    }
+
+    .moving-image {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .hero {
+      background-image: url('C:\Users\imad\Downloads\background image.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .benefits {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    .benefits li {
+      margin-bottom: 10px;
+    }
+
+    .order-button {
+      background-color: #006400;
+      color: white;
+      border: none;
+      padding: 20px 20px;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    ul {
+      text-align: center;
+      list-style: none;
+      padding: 0;
+    }
+
+    .steps {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .step {
+      text-align: center;
+      flex-basis: 30%;
+      margin: 10px;
+    }
+
+    footer {
+      background-color: #006400;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+ <style>
+  @keyframes moveHeader {
+    0% {
+      transform: translateX(0);
+    }
+
+    50% {
+      transform: translateX(10px);
+      font-weight: bold;
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  header h1 {
+    animation: moveHeader 2s ease-in-out infinite;
+  }
+</style>
+
+<header>
+  <h1>Imad Eats Delivery Service</h1>
+</header>
+<!-- enterprise info -->
+<div class="contact-info">
+  <p style="font-weight: bold; font-style: italic;">Email: Montilivi@imadeats.com | Teléfono: +314 3425 3453 3464 | Dirección: C/Ròvira Palacios | CP: 17005</p>
+</div>
+
+  
+
+  <div class="additional-content">
+	
+    <h2>No se devuelven pedidos, cobro solo en efectivo</h2>
+   
+	<h1>¡Haz ya tu pedido!</h1>
+	<br><br>
+	<!--list benefits -->
+
+  <li style="color: #008000; font-weight: bold; margin-bottom: 10px;">Entregamos en horarios flexibles para tu conveniencia.</li>
+  <br><br>
+  <li style="color: #008000; font-weight: bold; margin-bottom: 10px;">¡Blanqueamos dinero!</li>
+  <br><br>
+  <li style="color: #008000; font-weight: bold; margin-bottom: 10px;">Envíos a toda la península</li>
+  <br><br>
+  <li style="color: #008000; font-weight: bold; margin-bottom: 10px;">Sin suscripciones, sin compromisos.</li>
+  <br><br>
+  <li style="color: #008000; font-weight: bold; margin-bottom: 10px;">Tu comida de la semana en una entrega</li>
+  <br><br>
+  <li style="color: #008000; font-weight: bold;">Sin cocinar, sin limpiar... ¡Listo en minutos!</li>
+</ul>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery Service</title>
+
+ 
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+
+  <style>
+    .moving-images {
+      display: flex;
+      overflow: hidden;
+    }
+
+    .moving-image {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      margin-right: 20px; /* Ajusta el margen entre las imágenes según tus necesidades */
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Aplica rotación al hacer clic */
+    .moving-image:hover {
+      transform: rotate(360deg);
+    }
+
+    /* Agrega estilos para los controles de flechas */
+    .slick-prev,
+    .slick-next {
+      font-size: 24px;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="moving-images">
+    <img src="C:\Users\imad\Downloads\rachel-park-hrlvr2ZlUNk-unsplash.jpg" class="moving-image" alt="Moving Image 1">
+    <img src="C:\Users\imad\Downloads\petr-sevcovic-qE1jxYXiwOA-unsplash.jpg" class="moving-image" alt="Moving Image 2">
+    <img src="C:\Users\imad\Downloads\lily-banse--YHSwy6uqvk-unsplash.jpg" class="moving-image" alt="Moving Image 3">
+    <img src="C:\Users\imad\Downloads\rachel-park-hrlvr2ZlUNk-unsplash.jpg" class="moving-image" alt="Moving Image 4">
+    <img src="C:\Users\imad\Downloads\Putin-y-Xi-Jinping-7.avif" class="moving-image" alt="Moving Image 5">
+    <img src="C:\Users\imad\Downloads\food-shot-iStock-1403973419-scaled.jpg" class="moving-image" alt="Moving Image 6">
+    <img src="C:\Users\imad\Downloads\1e0023c5bba2ebb6972f1d7aa0f8b609.jpg" class="moving-image" alt="Moving Image 7">
+  </div>
+
+
+  <div class="moving-images">
+    <div class="slick-prev">❮</div>
+    <div class="slick-next">❯</div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <script>
+    <!-- Script per el Slick Slider -->
+    $('.moving-images').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      prevArrow: $('.slick-prev'),
+      nextArrow: $('.slick-next')
+    });
+  </script>
+
+</body>
+
+</html>
+
+
+  <style>
+  @keyframes shakeButton {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .order-button {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .order-button:hover {
+    animation: shakeButton 0.5s ease-in-out;
+  }
+</style>
+
+<section class="hero">
+  <button class="order-button">Realizar Pedido</button>
+</section>
+
+
+<h2>Elige ImadEats</h2>
+<<ul>
+  <li style="color: #008000; font-weight: bold;"> - Entrantes</li>
+  <br>
+  <li style="color: #008000; font-weight: bold;"> - Postres</li>
+  <br>
+  <li style="color: #008000; font-weight: bold;"> - Bebidas</li>
+</ul>
+
+
+<!-- passos amb imatges/ "steps" -->
+  <section class="steps">
+    <div class="step">
+      <img src="https://knoweats.com/cdn/shop/files/Mesa_de_trabajo_2.svg?v=1696325156" alt="Paso 1">
+      <h3>1. Elige</h3>
+      <p>Selecciona tus platos favoritos</p>
+    </div>
+    <div class="step">
+      <img src="https://knoweats.com/cdn/shop/files/Mesa_de_trabajo_2_1.svg?v=1696325156" alt="Paso 2">
+      <h3>2. Recibe</h3>
+      <p>Entrega programada en tu domicilio</p>
+    </div>
+    <div class="step">
+      <img src="https://knoweats.com/cdn/shop/files/Mesa_de_trabajo_2_2.svg?v=1696325156" alt="Paso 3">
+      <h3>3. Calienta</h3>
+      <p>Tu comida aguantará 8 días en tu nevera</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 ImadEats Delivery Service</p>
+  </footer>
+</body>
+
+</html>
